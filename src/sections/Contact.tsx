@@ -28,7 +28,7 @@ export function Contact() {
             <Button
               as="a"
               href="https://cal.com/shubham/build"
-              className="w-full border-primary/20 bg-white text-primary shadow-none hover:bg-white/90 sm:w-auto"
+            className="w-full sm:w-auto"
             >
               Book a discovery call
             </Button>

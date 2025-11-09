@@ -34,7 +34,7 @@ export function Experience() {
               </header>
               <ul className="mt-5 space-y-3 text-sm leading-relaxed text-primary/80 sm:text-base">
                 {role.achievements.map((achievement) => (
-                  <li key={achievement} className="flex gap-3 leading-relaxed">
+                  <li key={achievement} className="flex gap-3 break-words leading-relaxed">
                     <span className="mt-2 h-1 w-6 rounded bg-secondary/60 sm:h-1.5 sm:w-1.5 sm:rounded-full" />
                     <span>{achievement}</span>
                   </li>

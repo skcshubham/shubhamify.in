@@ -26,7 +26,7 @@ export function Projects() {
             <div className="relative flex flex-col gap-5 px-6 pb-8 pt-9 sm:px-8 sm:pb-10 sm:pt-11">
               <div className="space-y-3">
                 <h3 className="text-2xl font-semibold text-primary">{project.name}</h3>
-                <p className="text-sm leading-relaxed text-primary/70 sm:text-base">{project.description}</p>
+                <p className="text-sm leading-relaxed text-primary/70 sm:text-base break-words">{project.description}</p>
               </div>
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech) => (
@@ -37,7 +37,7 @@ export function Projects() {
                 <Button as="a" href={project.link} className="w-auto">
                   View case study
                 </Button>
-                <span className="text-xs font-semibold uppercase tracking-[0.28em] text-primary/60">
+                <span className="text-xs font-semibold uppercase tracking-[0.24em] text-primary/60">
                   Featured
                 </span>
               </div>
